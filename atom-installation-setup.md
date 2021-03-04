@@ -51,9 +51,7 @@ Click on `+install` and you will be **taken** to a ***list*** of **available pac
 
 + `atom-notes`: Embedded Notational Velocity-like features for Atom.
 
-+ `color-picker`: Right click and select Color Picker, or hit CMD-SHIFT-C/CTRL-ALT-C to open it. Currently reads HEX, HEXa, RGB, RGBa, HSL, HSLa, HSV, HSVa, VEC3 and VEC4 colors – and is able to convert between the formats.
-
-It also inspects Sass and LESS color variables. Just open the Color Picker with the cursor at a variable and it'll look up the definition for you. From there, you can click the definition and go directly to where it's defined.
++ `color-picker`: Right click and select Color Picker, or hit CMD-SHIFT-C/CTRL-ALT-C to open it. Currently reads HEX, HEXa, RGB, RGBa, HSL, HSLa, HSV, HSVa, VEC3 and VEC4 colors – and is able to convert between the formats. It also inspects Sass and LESS color variables. Just open the Color Picker with the cursor at a variable and it'll look up the definition for you. From there, you can click the definition and go directly to where it's defined.
 
 + `css-grid-snippets`: CSS Grid Layout Snippets.
 
@@ -61,7 +59,7 @@ It also inspects Sass and LESS color variables. Just open the Color Picker with 
 
 + `html-tag-auto-complete`: A simple auto completion of html tags with class and/or id.
 
-+ `html-template-generator`: HTML template generator for Atom text editor. *
++ `html-template-generator`: HTML template generator for Atom text editor.
 
 + `html-to-css`: Generate CSS classes from HTML structure.
 
@@ -71,9 +69,7 @@ It also inspects Sass and LESS color variables. Just open the Color Picker with 
 
 + `language-atom-notes`: Syntax Highlighting for Atom Notes.
 
-+ `linter`: Linter is a base linter provider for the hackable Atom Editor. Additionally, you need to install a specific linter for your language. You will find a full list on [atomlinter.github.io](https://atomlinter.github.io/).
-
-It provides a top-level API to its consumer so that they can visualize errors and other types of messages with ease.
++ `linter`: Linter is a base linter provider for the hackable Atom Editor. Additionally, you need to install a specific linter for your language. You will find a full list on [atomlinter.github.io](https://atomlinter.github.io/). It provides a top-level API to its consumer so that they can visualize errors and other types of messages with ease.
 
 + `linter-csslint`: Lint CSS on the fly, using csslint. It will be used with files that have the "CSS" or "HTML" syntax.
 
@@ -82,5 +78,38 @@ It provides a top-level API to its consumer so that they can visualize errors an
 + `linter-ui-default`: Default UI for the Linter package.
 
 + `platformio-ide-terminal`: A terminal package for Atom, complete with themes, API and more for PlatformIO IDE. Fork of terminal-plus.
+
+</section>
+
+---
+
+<section class="section">
+	<h2 class="sentence"> The <code>atom .</code> shell command</h2>
+
+***Last*** of **all**, ***after*** you have **installed** all your `Atom` **packages**, if you **use** `Terminal` in your **daily workflow**, ***don’t forget*** to **install** the `atom .` **shell command**. This ***permits you*** to **open** your `project` from `Terminal`. Then, once you have done that, you can **use** the `platform side terminal` **integrated** `Terminal` from ***inside*** your `project`!
+
+To ***open*** your **integrated** `Terminal` from **inside** your `project` (it’s the ***same shortcut*** in `VS Code`), just **press** the `Control key` on `Mac`, ***followed by*** the `back tick key` (located below the `tilde symbol` in the ***same key***, and ***this key*** is **located** right below the `esc key`.
+
+</section>
+
+---
+
+<section class="section">
+	<h2 class="sentence">Installing a shell command in Atom</h2>
+
+To ***install*** a `shell command` in `Atom`, **select** the `Atom` **tab** itself ***inside*** `Atom`, and **select** `“install Shell Commands”`. When you have done that, `Atom` will **let** you **know** that the `commands` have been **installed**.
+
+<div>
+	<img src="images/atom_shell_commands.png" alt="Atom Shell Commands">
+</div>
+
+</section>
+
+---
+
+<section class="section">
+	<h2 class="sentence">Related Resources</h2>
+
+- [atom.io](https://atom.io/)
 
 </section>
